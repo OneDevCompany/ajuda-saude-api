@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info:
+  title: restful-react project
+  description: "Test \r\n- REST API\r\n- restful-react package\r\n- generate postman collections documentation (json)\r\n- generate OpenAPI file (json)"
+  version: 1.0.0
+servers:
+  - url: 'undefined://localhost'
+paths:
+  /api/v1/:
+    get:
+      tags:
+        - General
+      summary: SignUp
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
